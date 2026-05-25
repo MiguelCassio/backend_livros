@@ -9,7 +9,7 @@ const server = fastify();
 server.get('/', async (request, reply) => {
   return { message: 'API server - Gestor de Livros' };
 });
-
+bababa
 server.listen({ port: PORT }, (err, address) => {
   if (err) {
     console.error(err);
