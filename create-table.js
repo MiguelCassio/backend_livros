@@ -12,11 +12,11 @@ duration INT
 
 // 0 mysq12 usa o método .query() que retorna uma Promise
 sql.query(createTableQuery)
-    .then(() = {
+    .then(() => {
   console.log("Tabela 'livros' criada ou ja existente com sucesso no MySQL");
 })
 
-.catch((err) = {
+.catch((err) => {
 console.error("Erro ao criar a tabela no MySQL:");
 console.error(err.message);
 
